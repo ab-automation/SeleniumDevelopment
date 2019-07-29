@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="8099" started-at="2019-07-24T08:19:24Z" finished-at="2019-07-24T08:19:32Z">
+  <suite name="Command line suite" duration-ms="7210" started-at="2019-07-29T18:31:02Z" finished-at="2019-07-29T18:31:09Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8099" started-at="2019-07-24T08:19:24Z" finished-at="2019-07-24T08:19:32Z">
+    <test name="Command line test" duration-ms="7210" started-at="2019-07-29T18:31:02Z" finished-at="2019-07-29T18:31:09Z">
       <class name="resrAssuredTests.TestRestFul">
-        <test-method status="PASS" signature="testDeleteCall()[pri:0, instance:resrAssuredTests.TestRestFul@73f792cf]" name="testDeleteCall" duration-ms="3955" started-at="2019-07-24T08:19:24Z" finished-at="2019-07-24T08:19:28Z">
+        <test-method status="PASS" signature="testDeleteCall()[pri:0, instance:resrAssuredTests.TestRestFul@246ae04d]" name="testDeleteCall" duration-ms="3061" started-at="2019-07-29T18:31:02Z" finished-at="2019-07-29T18:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCall -->
-        <test-method status="PASS" signature="testGetCall()[pri:0, instance:resrAssuredTests.TestRestFul@73f792cf]" name="testGetCall" duration-ms="4107" started-at="2019-07-24T08:19:28Z" finished-at="2019-07-24T08:19:32Z">
+        <test-method status="PASS" signature="testGetCall()[pri:0, instance:resrAssuredTests.TestRestFul@246ae04d]" name="testGetCall" duration-ms="4123" started-at="2019-07-29T18:31:05Z" finished-at="2019-07-29T18:31:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCall -->

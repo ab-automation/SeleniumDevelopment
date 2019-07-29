@@ -9,6 +9,7 @@ import org.json.simple.JSONObject;
 import org.openqa.selenium.json.Json;
 import org.testng.annotations.Test;
 
+import cucumber.annotation.en.Given;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
@@ -44,6 +45,7 @@ public class PracticeClass {
         JsonPath jsonPath = response.jsonPath();
         System.out.println(jsonPath.get());
         System.out.println(jsonPath.get("City"));
+        
     }
     
     
@@ -69,5 +71,13 @@ public class PracticeClass {
         
         ResponseBody body = response.getBody();
         System.out.println(body.asString());
+    }
+    
+    @Test
+    public void getCallRequest() {
+        RequestSpecification httpRequestSpecification = RestAssured.given();
+        Response resp = httpRequestSpecification.get("https://api.ie.uat.leap.dyson.cloud/apiman-gateway/dyson/product/1.0/ie/214744-01?fields=DEFAULT&lang=en");
+        System.out.println(resp.asString());
+        
     }
 }
