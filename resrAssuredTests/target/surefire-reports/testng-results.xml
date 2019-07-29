@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8099" started-at="2019-07-24T08:19:24Z" finished-at="2019-07-24T08:19:32Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8099" started-at="2019-07-24T08:19:24Z" finished-at="2019-07-24T08:19:32Z">
+      <class name="resrAssuredTests.TestRestFul">
+        <test-method status="PASS" signature="testDeleteCall()[pri:0, instance:resrAssuredTests.TestRestFul@73f792cf]" name="testDeleteCall" duration-ms="3955" started-at="2019-07-24T08:19:24Z" finished-at="2019-07-24T08:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCall -->
+        <test-method status="PASS" signature="testGetCall()[pri:0, instance:resrAssuredTests.TestRestFul@73f792cf]" name="testGetCall" duration-ms="4107" started-at="2019-07-24T08:19:28Z" finished-at="2019-07-24T08:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCall -->
+      </class> <!-- resrAssuredTests.TestRestFul -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
